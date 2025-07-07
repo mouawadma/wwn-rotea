@@ -54,3 +54,6 @@ declare module "vfile" {
     relativePath: FilePath
   }
 }
+
+// Export RemoveGMSections
+export { RemoveGMSections } from "./transformers/RemoveGMSections"

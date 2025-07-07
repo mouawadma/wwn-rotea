@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Quartz Dev Server (from source)",
+      "program": "${workspaceFolder}/quartz/bootstrap-cli.mjs",
+      "args": ["build", "--serve"],
+      "runtimeArgs": ["--inspect-brk"],
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
